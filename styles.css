@@ -1,19 +1,16 @@
-
 body {
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-height: 100vh;
-    height: 100vh;
   }
   
   .maior {
     display: flex;
     width: 80%;
     max-width: 1200px;
-    height: 150%;
+    height: 200vh;
     align-items: center;
     justify-content: center;
     
@@ -27,8 +24,6 @@ body {
     height: 100%;
     padding: none;
     margin-bottom: none;
-    position: relative;
-    top: 20%;
     
   }
 
@@ -40,7 +35,7 @@ body {
     box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
     border: none;
     position: relative;
-    bottom: 50px;
+    bottom: 15px;
 
   }
   
@@ -155,15 +150,26 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
     
-.imagens {
-    display: flex;
-    flex-direction: column;
-    height: 11.5%;
-    width: 30%;
-    position: relative;
-    left: 5%;
-    top: 6.25%;
-
+.i1 {
+  position: relative;
+  top: 60%;
+  width: 300px;
+  left: 2.6%;
+  max-height: 450px;
+  height: 250px;
+}
+.i2 {
+  position: relative;
+  top: 16%;
+  width: 300px;
+  right: 28.8%;
+}
+.i3 {
+  position: relative;
+  top: 48%;
+  height: 200px;
+  width: 550px;
+  left: 35%;
 
 }
 .duo1 {
@@ -171,19 +177,18 @@ body {
   flex-wrap: wrap;
   width: 100%;
   position: relative;
-  left: 40%;
-  bottom: 5.5%;
+  left: 35%;
+  bottom: 41.8%;
 }
 .duo2 {
   position: relative;
-  left: 40%;
-  bottom:5.5%;
+  left: 35%;
+  bottom: 41.8%;
 }
 
 .i4 {
   width: 275px;
   height: 275px;
-
 }
 .i5 {
   width: 275px;
@@ -198,11 +203,11 @@ body {
   height: 275px;
 }
 .i8 {
-  width: 575px;
+  width: 275px;
   height: 275px;
   position: relative;
-  left: 37.5%;
-  bottom: 5%;
+  left: 2.6%;
+  bottom: 35%;
 }
 #contatos {
     padding: 100px;
