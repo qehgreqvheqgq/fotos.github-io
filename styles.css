@@ -1,4 +1,6 @@
+
 body {
+
     font-family: Arial, sans-serif;
     background-color: #1e1e1e;
     display: flex;
@@ -43,7 +45,7 @@ body {
     width: 100px;
     position: relative;
     top: 7px;
-    left: 5%;
+    left: 12%;
     height: 0 auto;
   }
   
@@ -149,29 +151,27 @@ body {
     font-size: larger;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-    
-.i1 {
+.imagens {
+  display: flex;
+  flex-direction: column;
   position: relative;
-  top: 60%;
+  top: 5.25%;
+  left: 5%;
+}
+.i1 {
   width: 300px;
-  left: 2.6%;
-  max-height: 450px;
   height: 250px;
+  max-height: 450px;
+  max-width: 300px;
 }
 .i2 {
-  position: relative;
-  top: 16%;
   width: 300px;
-  right: 28.8%;
 }
 .i3 {
-  position: relative;
-  top: 48%;
   height: 200px;
-  width: 550px;
-  left: 35%;
-
+  width: 300px;
 }
+    
 .duo1 {
   display: flex;
   flex-wrap: wrap;
@@ -203,11 +203,11 @@ body {
   height: 275px;
 }
 .i8 {
-  width: 275px;
+  width: 450px;
   height: 275px;
   position: relative;
-  left: 2.6%;
-  bottom: 35%;
+  left: 35%;
+  bottom: 42%;
 }
 #contatos {
     padding: 100px;
